@@ -1,0 +1,401 @@
+origine,destinazione,valore,check
+Piemonte,Piemonte,2224452,1
+Piemonte,Valle d'Aosta,4399,0
+Piemonte,Lombardia,105440,0
+Piemonte,Trentino-Alto Adige,2429,0
+Piemonte,Veneto,10278,0
+Piemonte,Friuli Venezia Giulia,1944,0
+Piemonte,Liguria,17701,0
+Piemonte,Emilia-Romagna,11074,0
+Piemonte,Toscana,9014,0
+Piemonte,Umbria,728,0
+Piemonte,Marche,1507,0
+Piemonte,Lazio,31264,0
+Piemonte,Abruzzo,1829,0
+Piemonte,Molise,433,0
+Piemonte,Campania,7741,0
+Piemonte,Puglia,3545,0
+Piemonte,Basilicata,642,0
+Piemonte,Calabria,1520,0
+Piemonte,Sicilia,3620,0
+Piemonte,Sardegna,1154,0
+Valle d'Aosta,Piemonte,4272,0
+Valle d'Aosta,Valle d'Aosta,50996,1
+Valle d'Aosta,Lombardia,2001,0
+Valle d'Aosta,Trentino-Alto Adige,67,0
+Valle d'Aosta,Veneto,285,0
+Valle d'Aosta,Friuli Venezia Giulia,62,0
+Valle d'Aosta,Liguria,326,0
+Valle d'Aosta,Emilia-Romagna,272,0
+Valle d'Aosta,Toscana,255,0
+Valle d'Aosta,Umbria,19,0
+Valle d'Aosta,Marche,34,0
+Valle d'Aosta,Lazio,1309,0
+Valle d'Aosta,Abruzzo,47,0
+Valle d'Aosta,Molise,5,0
+Valle d'Aosta,Campania,154,0
+Valle d'Aosta,Puglia,60,0
+Valle d'Aosta,Basilicata,21,0
+Valle d'Aosta,Calabria,97,0
+Valle d'Aosta,Sicilia,97,0
+Valle d'Aosta,Sardegna,65,0
+Lombardia,Piemonte,59169,0
+Lombardia,Valle d'Aosta,1115,0
+Lombardia,Lombardia,5563236,1
+Lombardia,Trentino-Alto Adige,9914,0
+Lombardia,Veneto,47105,0
+Lombardia,Friuli Venezia Giulia,6127,0
+Lombardia,Liguria,14972,0
+Lombardia,Emilia-Romagna,62013,0
+Lombardia,Toscana,20410,0
+Lombardia,Umbria,2102,0
+Lombardia,Marche,4549,0
+Lombardia,Lazio,71200,0
+Lombardia,Abruzzo,4178,0
+Lombardia,Molise,385,0
+Lombardia,Campania,15935,0
+Lombardia,Puglia,8629,0
+Lombardia,Basilicata,1526,0
+Lombardia,Calabria,4197,0
+Lombardia,Sicilia,8096,0
+Lombardia,Sardegna,2631,0
+Trentino-Alto Adige,Piemonte,1258,0
+Trentino-Alto Adige,Valle d'Aosta,68,0
+Trentino-Alto Adige,Lombardia,9674,0
+Trentino-Alto Adige,Trentino-Alto Adige,610490,1
+Trentino-Alto Adige,Veneto,10576,0
+Trentino-Alto Adige,Friuli Venezia Giulia,770,0
+Trentino-Alto Adige,Liguria,542,0
+Trentino-Alto Adige,Emilia-Romagna,3784,0
+Trentino-Alto Adige,Toscana,1473,0
+Trentino-Alto Adige,Umbria,159,0
+Trentino-Alto Adige,Marche,336,0
+Trentino-Alto Adige,Lazio,7600,0
+Trentino-Alto Adige,Abruzzo,262,0
+Trentino-Alto Adige,Molise,25,0
+Trentino-Alto Adige,Campania,953,0
+Trentino-Alto Adige,Puglia,602,0
+Trentino-Alto Adige,Basilicata,149,0
+Trentino-Alto Adige,Calabria,273,0
+Trentino-Alto Adige,Sicilia,424,0
+Trentino-Alto Adige,Sardegna,133,0
+Veneto,Piemonte,11194,0
+Veneto,Valle d'Aosta,404,0
+Veneto,Lombardia,64653,0
+Veneto,Trentino-Alto Adige,17942,0
+Veneto,Veneto,2733204,1
+Veneto,Friuli Venezia Giulia,29520,0
+Veneto,Liguria,3504,0
+Veneto,Emilia-Romagna,34558,0
+Veneto,Toscana,9472,0
+Veneto,Umbria,1040,0
+Veneto,Marche,2332,0
+Veneto,Lazio,34483,0
+Veneto,Abruzzo,1763,0
+Veneto,Molise,177,0
+Veneto,Campania,7357,0
+Veneto,Puglia,3758,0
+Veneto,Basilicata,797,0
+Veneto,Calabria,6325,0
+Veneto,Sicilia,3421,0
+Veneto,Sardegna,903,0
+Friuli Venezia Giulia,Piemonte,3603,0
+Friuli Venezia Giulia,Valle d'Aosta,66,0
+Friuli Venezia Giulia,Lombardia,12234,0
+Friuli Venezia Giulia,Trentino-Alto Adige,2068,0
+Friuli Venezia Giulia,Veneto,32357,0
+Friuli Venezia Giulia,Friuli Venezia Giulia,612591,1
+Friuli Venezia Giulia,Liguria,1429,0
+Friuli Venezia Giulia,Emilia-Romagna,4271,0
+Friuli Venezia Giulia,Toscana,2681,0
+Friuli Venezia Giulia,Umbria,223,0
+Friuli Venezia Giulia,Marche,766,0
+Friuli Venezia Giulia,Lazio,19198,0
+Friuli Venezia Giulia,Abruzzo,434,0
+Friuli Venezia Giulia,Molise,43,0
+Friuli Venezia Giulia,Campania,3421,0
+Friuli Venezia Giulia,Puglia,1142,0
+Friuli Venezia Giulia,Basilicata,238,0
+Friuli Venezia Giulia,Calabria,422,0
+Friuli Venezia Giulia,Sicilia,1172,0
+Friuli Venezia Giulia,Sardegna,332,0
+Liguria,Piemonte,19671,0
+Liguria,Valle d'Aosta,283,0
+Liguria,Lombardia,24700,0
+Liguria,Trentino-Alto Adige,955,0
+Liguria,Veneto,3418,0
+Liguria,Friuli Venezia Giulia,1104,0
+Liguria,Liguria,735342,1
+Liguria,Emilia-Romagna,5261,0
+Liguria,Toscana,14559,0
+Liguria,Umbria,305,0
+Liguria,Marche,931,0
+Liguria,Lazio,16723,0
+Liguria,Abruzzo,408,0
+Liguria,Molise,47,0
+Liguria,Campania,3922,0
+Liguria,Puglia,1420,0
+Liguria,Basilicata,135,0
+Liguria,Calabria,467,0
+Liguria,Sicilia,1496,0
+Liguria,Sardegna,637,0
+Emilia-Romagna,Piemonte,12587,0
+Emilia-Romagna,Valle d'Aosta,230,0
+Emilia-Romagna,Lombardia,74880,0
+Emilia-Romagna,Trentino-Alto Adige,4527,0
+Emilia-Romagna,Veneto,21608,0
+Emilia-Romagna,Friuli Venezia Giulia,2670,0
+Emilia-Romagna,Liguria,4510,0
+Emilia-Romagna,Emilia-Romagna,2487191,1
+Emilia-Romagna,Toscana,14781,0
+Emilia-Romagna,Umbria,1507,0
+Emilia-Romagna,Marche,12181,0
+Emilia-Romagna,Lazio,33268,0
+Emilia-Romagna,Abruzzo,2654,0
+Emilia-Romagna,Molise,382,0
+Emilia-Romagna,Campania,10712,0
+Emilia-Romagna,Puglia,5521,0
+Emilia-Romagna,Basilicata,838,0
+Emilia-Romagna,Calabria,1914,0
+Emilia-Romagna,Sicilia,3876,0
+Emilia-Romagna,Sardegna,897,0
+Toscana,Piemonte,7879,0
+Toscana,Valle d'Aosta,201,0
+Toscana,Lombardia,36049,0
+Toscana,Trentino-Alto Adige,2319,0
+Toscana,Veneto,8631,0
+Toscana,Friuli Venezia Giulia,1350,0
+Toscana,Liguria,14219,0
+Toscana,Emilia-Romagna,19907,0
+Toscana,Toscana,2001865,1
+Toscana,Umbria,7594,0
+Toscana,Marche,2247,0
+Toscana,Lazio,45178,0
+Toscana,Abruzzo,1681,0
+Toscana,Molise,293,0
+Toscana,Campania,9530,0
+Toscana,Puglia,3054,0
+Toscana,Basilicata,613,0
+Toscana,Calabria,1530,0
+Toscana,Sicilia,3188,0
+Toscana,Sardegna,1122,0
+Umbria,Piemonte,1762,0
+Umbria,Valle d'Aosta,39,0
+Umbria,Lombardia,6487,0
+Umbria,Trentino-Alto Adige,487,0
+Umbria,Veneto,2004,0
+Umbria,Friuli Venezia Giulia,272,0
+Umbria,Liguria,534,0
+Umbria,Emilia-Romagna,3944,0
+Umbria,Toscana,11279,0
+Umbria,Umbria,432905,1
+Umbria,Marche,3946,0
+Umbria,Lazio,23196,0
+Umbria,Abruzzo,1147,0
+Umbria,Molise,80,0
+Umbria,Campania,2085,0
+Umbria,Puglia,553,0
+Umbria,Basilicata,151,0
+Umbria,Calabria,301,0
+Umbria,Sicilia,522,0
+Umbria,Sardegna,213,0
+Marche,Piemonte,3686,0
+Marche,Valle d'Aosta,95,0
+Marche,Lombardia,13004,0
+Marche,Trentino-Alto Adige,1151,0
+Marche,Veneto,4192,0
+Marche,Friuli Venezia Giulia,1052,0
+Marche,Liguria,1077,0
+Marche,Emilia-Romagna,21037,0
+Marche,Toscana,4816,0
+Marche,Umbria,3343,0
+Marche,Marche,812705,1
+Marche,Lazio,15443,0
+Marche,Abruzzo,9867,0
+Marche,Molise,216,0
+Marche,Campania,3138,0
+Marche,Puglia,1765,0
+Marche,Basilicata,175,0
+Marche,Calabria,355,0
+Marche,Sicilia,950,0
+Marche,Sardegna,237,0
+Lazio,Piemonte,12173,0
+Lazio,Valle d'Aosta,229,0
+Lazio,Lombardia,56016,0
+Lazio,Trentino-Alto Adige,3600,0
+Lazio,Veneto,12189,0
+Lazio,Friuli Venezia Giulia,2156,0
+Lazio,Liguria,5727,0
+Lazio,Emilia-Romagna,13845,0
+Lazio,Toscana,18959,0
+Lazio,Umbria,10220,0
+Lazio,Marche,4322,0
+Lazio,Lazio,2983763,1
+Lazio,Abruzzo,14257,0
+Lazio,Molise,1610,0
+Lazio,Campania,27981,0
+Lazio,Puglia,7029,0
+Lazio,Basilicata,1448,0
+Lazio,Calabria,3945,0
+Lazio,Sicilia,6116,0
+Lazio,Sardegna,1803,0
+Abruzzo,Piemonte,5161,0
+Abruzzo,Valle d'Aosta,79,0
+Abruzzo,Lombardia,13122,0
+Abruzzo,Trentino-Alto Adige,961,0
+Abruzzo,Veneto,3255,0
+Abruzzo,Friuli Venezia Giulia,607,0
+Abruzzo,Liguria,1272,0
+Abruzzo,Emilia-Romagna,9092,0
+Abruzzo,Toscana,4179,0
+Abruzzo,Umbria,1492,0
+Abruzzo,Marche,14949,0
+Abruzzo,Lazio,32074,0
+Abruzzo,Abruzzo,616718,1
+Abruzzo,Molise,2879,0
+Abruzzo,Campania,5299,0
+Abruzzo,Puglia,2473,0
+Abruzzo,Basilicata,455,0
+Abruzzo,Calabria,423,0
+Abruzzo,Sicilia,893,0
+Abruzzo,Sardegna,293,0
+Molise,Piemonte,1059,0
+Molise,Valle d'Aosta,29,0
+Molise,Lombardia,2520,0
+Molise,Trentino-Alto Adige,226,0
+Molise,Veneto,716,0
+Molise,Friuli Venezia Giulia,125,0
+Molise,Liguria,249,0
+Molise,Emilia-Romagna,2486,0
+Molise,Toscana,1231,0
+Molise,Umbria,316,0
+Molise,Marche,1093,0
+Molise,Lazio,7390,0
+Molise,Abruzzo,7989,0
+Molise,Molise,122425,1
+Molise,Campania,4859,0
+Molise,Puglia,1530,0
+Molise,Basilicata,237,0
+Molise,Calabria,125,0
+Molise,Sicilia,173,0
+Molise,Sardegna,53,0
+Campania,Piemonte,13992,0
+Campania,Valle d'Aosta,315,0
+Campania,Lombardia,41903,0
+Campania,Trentino-Alto Adige,2298,0
+Campania,Veneto,10602,0
+Campania,Friuli Venezia Giulia,2185,0
+Campania,Liguria,5895,0
+Campania,Emilia-Romagna,18802,0
+Campania,Toscana,19003,0
+Campania,Umbria,2630,0
+Campania,Marche,3404,0
+Campania,Lazio,104602,0
+Campania,Abruzzo,5487,0
+Campania,Molise,6723,0
+Campania,Campania,2604463,1
+Campania,Puglia,8368,0
+Campania,Basilicata,5818,0
+Campania,Calabria,3485,0
+Campania,Sicilia,6789,0
+Campania,Sardegna,1053,0
+Puglia,Piemonte,13683,0
+Puglia,Valle d'Aosta,306,0
+Puglia,Lombardia,37042,0
+Puglia,Trentino-Alto Adige,3898,0
+Puglia,Veneto,8647,0
+Puglia,Friuli Venezia Giulia,1876,0
+Puglia,Liguria,3294,0
+Puglia,Emilia-Romagna,22687,0
+Puglia,Toscana,9759,0
+Puglia,Umbria,1411,0
+Puglia,Marche,5632,0
+Puglia,Lazio,73692,0
+Puglia,Abruzzo,7326,0
+Puglia,Molise,3445,0
+Puglia,Campania,15839,0
+Puglia,Puglia,1806791,1
+Puglia,Basilicata,13109,0
+Puglia,Calabria,2466,0
+Puglia,Sicilia,3493,0
+Puglia,Sardegna,868,0
+Basilicata,Piemonte,3385,0
+Basilicata,Valle d'Aosta,68,0
+Basilicata,Lombardia,6845,0
+Basilicata,Trentino-Alto Adige,605,0
+Basilicata,Veneto,1599,0
+Basilicata,Friuli Venezia Giulia,345,0
+Basilicata,Liguria,713,0
+Basilicata,Emilia-Romagna,4881,0
+Basilicata,Toscana,3461,0
+Basilicata,Umbria,599,0
+Basilicata,Marche,852,0
+Basilicata,Lazio,9618,0
+Basilicata,Abruzzo,1316,0
+Basilicata,Molise,148,0
+Basilicata,Campania,7452,0
+Basilicata,Puglia,9889,0
+Basilicata,Basilicata,239044,1
+Basilicata,Calabria,1802,0
+Basilicata,Sicilia,738,0
+Basilicata,Sardegna,137,0
+Calabria,Piemonte,7664,0
+Calabria,Valle d'Aosta,325,0
+Calabria,Lombardia,22807,0
+Calabria,Trentino-Alto Adige,1085,0
+Calabria,Veneto,4934,0
+Calabria,Friuli Venezia Giulia,776,0
+Calabria,Liguria,2326,0
+Calabria,Emilia-Romagna,10095,0
+Calabria,Toscana,8340,0
+Calabria,Umbria,1397,0
+Calabria,Marche,1460,0
+Calabria,Lazio,33774,0
+Calabria,Abruzzo,1682,0
+Calabria,Molise,202,0
+Calabria,Campania,9960,0
+Calabria,Puglia,4403,0
+Calabria,Basilicata,3255,0
+Calabria,Calabria,734365,1
+Calabria,Sicilia,9959,0
+Calabria,Sardegna,421,0
+Sicilia,Piemonte,17395,0
+Sicilia,Valle d'Aosta,343,0
+Sicilia,Lombardia,48405,0
+Sicilia,Trentino-Alto Adige,2812,0
+Sicilia,Veneto,11757,0
+Sicilia,Friuli Venezia Giulia,3053,0
+Sicilia,Liguria,5958,0
+Sicilia,Emilia-Romagna,19976,0
+Sicilia,Toscana,14976,0
+Sicilia,Umbria,1738,0
+Sicilia,Marche,3191,0
+Sicilia,Lazio,59211,0
+Sicilia,Abruzzo,2472,0
+Sicilia,Molise,280,0
+Sicilia,Campania,13462,0
+Sicilia,Puglia,4173,0
+Sicilia,Basilicata,1124,0
+Sicilia,Calabria,6310,0
+Sicilia,Sicilia,2045886,1
+Sicilia,Sardegna,1533,0
+Sardegna,Piemonte,5596,0
+Sardegna,Valle d'Aosta,507,0
+Sardegna,Lombardia,16312,0
+Sardegna,Trentino-Alto Adige,1700,0
+Sardegna,Veneto,4305,0
+Sardegna,Friuli Venezia Giulia,870,0
+Sardegna,Liguria,2576,0
+Sardegna,Emilia-Romagna,5577,0
+Sardegna,Toscana,5460,0
+Sardegna,Umbria,775,0
+Sardegna,Marche,1085,0
+Sardegna,Lazio,26968,0
+Sardegna,Abruzzo,709,0
+Sardegna,Molise,110,0
+Sardegna,Campania,4147,0
+Sardegna,Puglia,1169,0
+Sardegna,Basilicata,279,0
+Sardegna,Calabria,501,0
+Sardegna,Sicilia,2503,0
+Sardegna,Sardegna,583265,1
