@@ -64,7 +64,7 @@ mlr --csv cut -o -f COD_REG,DEN_REG,cx,cy then label id,name,lon,lat then reorde
 mlr --csv filter -S '($COD_REG_o=="19" || $COD_REG_d=="19")' then cut -o -f COD_REG_o,COD_REG_d,valore then label origin,dest,count "$folder"/../dati/processing/iovotofuorisede.csv >"$folder"/../dati/processing/flows_19.csv
 
 # estrai flows
-mlr --csv filter -S '$check=="0"' then cut -o -f COD_REG_o,COD_REG_d,valore then label origin,dest,count "$folder"/../dati/processing/iovotofuorisede.csv >"$folder"/../dati/processing/flows.csv
+mlr --csv cut -o -f COD_REG_o,COD_REG_d,valore then label origin,dest,count "$folder"/../dati/processing/iovotofuorisede.csv >"$folder"/../dati/processing/flows.csv
 
 ### flowmap ###
 
