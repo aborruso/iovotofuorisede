@@ -14,3 +14,9 @@ Fonte https://www.istat.it/it/archivio/258234 di ISTAT
 
 <iframe title="Individui in entrata per ragioni di studio e lavoro (valore assoluto)" aria-label="Mappa" id="datawrapper-chart-FMukw" src="https://datawrapper.dwcdn.net/FMukw/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="768"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
 </script>
+
+## Mappa dei flussi
+
+<a href="https://flowmap.blue/1RmMNWkNdNC4M3erXHU36x0c97Avlb849kbzEVIfZCdo?v=42.203718,11.904156,5.43,0,0&a=0&as=1&b=1&bo=75&c=0&ca=1&d=0&fe=1&lt=1&lfm=ALL&col=Blues&f=50" target="_blank">Schermo intero</a>
+
+<iframe width="800" height="600" src="https://flowmap.blue/1RmMNWkNdNC4M3erXHU36x0c97Avlb849kbzEVIfZCdo/embed?v=42.203718,11.904156,5.43,0,0&a=0&as=1&b=1&bo=75&c=0&ca=1&d=0&fe=1&lt=1&lfm=ALL&col=Blues&f=50" frameborder="0" allowfullscreen></iframe>
