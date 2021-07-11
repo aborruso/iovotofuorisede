@@ -68,5 +68,17 @@ mlr --csv filter -S '$check=="0"' then cut -o -f COD_REG_o,COD_REG_d,ogniCentomi
 
 ### flowmap ###
 
-
+# quanta gente esce per regione
 mlr --csv filter '$check==0' then stats1 -a sum -f valore -g COD_REG_o,origine,Popolazione then put '$ogniCento=int($valore_sum/$Popolazione*100)' then sort -n ogniCento then label COD_REG,regione,popolazione,individiduiDinamiciUscita,individiduiDinamiciUscitaOgniCento "$folder"/../dati/processing/iovotofuorisede.csv >"$folder"/../dati/processing/inUscitaOgniCento.csv
+
+# quanta gente entra per regione
+mlr --csv filter '$check==0' then stats1 -a sum -f valore -g COD_REG_d,destinazione "$folder"/../dati/processing/iovotofuorisede.csv >"$folder"/../dati/processing/tmp_inEntrataOgniCento.csv
+
+# aggiungi popolazione
+mlr --csv join --ul -j "COD_REG_d" -l "COD_REG_d" -r "COD_REG" -f "$folder"/../dati/processing/tmp_inEntrataOgniCento.csv then unsparsify then cut -x -f DEN_REG,cx,cy "$folder"/../dati/processing/anagraficaRegioni.csv >"$folder"/../dati/processing/inEntrataOgniCento.csv
+
+# aggiungi calcolo individui in entrata ogni 100 residenti
+mlr -I --csv put '$ogniCento=int($valore_sum/$Popolazione*100)' then reorder -f COD_REG_d,destinazione,Popolazione,valore_sum,ogniCento then label COD_REG,regione,popolazione,individiduiDinamiciEntrata,individiduiDinamiciEntrataOgniCento "$folder"/../dati/processing/inEntrataOgniCento.csv
+
+
+
