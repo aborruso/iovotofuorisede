@@ -20,6 +20,6 @@ Fonte https://www.istat.it/it/archivio/258234 di ISTAT
 <a href="https://flowmap.blue/1RmMNWkNdNC4M3erXHU36x0c97Avlb849kbzEVIfZCdo" target="_blank">Schermo intero</a>
 
 <div class="container-iframe">
-  <iframe class="responsive-iframe" src="https://flowmap.blue/1RmMNWkNdNC4M3erXHU36x0c97Avlb849kbzEVIfZCdo/embed"></iframe>
+  <iframe class="responsive-iframe" frameBorder="0" src="https://flowmap.blue/1RmMNWkNdNC4M3erXHU36x0c97Avlb849kbzEVIfZCdo/embed"></iframe>
 </div>
 
