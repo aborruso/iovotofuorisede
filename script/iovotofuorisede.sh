@@ -65,3 +65,8 @@ mlr --csv filter -S '$COD_REG_o=="19" && $check=="0"' then cut -o -f COD_REG_o,C
 
 # estrai flows
 mlr --csv filter -S '$check=="0"' then cut -o -f COD_REG_o,COD_REG_d,ogniCentomila then label origin,dest,count "$folder"/../dati/processing/iovotofuorisede.csv >"$folder"/../dati/processing/flows.csv
+
+### flowmap ###
+
+
+mlr --csv filter '$check==0' then stats1 -a sum -f valore -g COD_REG_o,origine,Popolazione then put '$ogniCento=int($valore_sum/$Popolazione*100)' then sort -n ogniCento then label COD_REG,regione,popolazione,individiduiDinamiciUscita,individiduiDinamiciUscitaOgniCento "$folder"/../dati/processing/iovotofuorisede.csv >"$folder"/../dati/processing/inUscitaOgniCento.csv
