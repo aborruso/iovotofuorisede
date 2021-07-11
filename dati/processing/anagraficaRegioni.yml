@@ -1,0 +1,24 @@
+encoding: utf-8
+format: csv
+hashing: md5
+name: anagraficaregioni
+path: anagraficaRegioni.csv
+profile: tabular-data-resource
+schema:
+  fields:
+    - name: DEN_REG
+      type: string
+      description: denominazione regione
+    - name: COD_REG
+      type: integer
+      description: codice ISTAT regione
+    - name: cx
+      type: number
+      description: longitudine di un punto che rappresenta geograficamente la regione
+    - name: cy
+      type: number
+      description: latitudine di un punto che rappresenta geograficamente la regione
+    - name: Popolazione
+      type: integer
+      description: numero di residenti per regione
+scheme: file
