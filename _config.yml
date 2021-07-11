@@ -1,0 +1,9 @@
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+remote_theme: "pages-themes/primer"
+title: "#ioVotoFuoriSede | movimenti"
+description: "Sugli individui che, pur non essendo residenti, si spostano per studio e lavoro con diversa frequenza (giornaliera, periodica, occasionale) e con diversi tempi di permanenza"
+lang: it-IT
