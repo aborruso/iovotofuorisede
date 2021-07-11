@@ -17,8 +17,8 @@ Fonte https://www.istat.it/it/archivio/258234 di ISTAT
 
 ## Mappa dei flussi
 
-<a href="https://flowmap.blue/1RmMNWkNdNC4M3erXHU36x0c97Avlb849kbzEVIfZCdo?v=42.203718,11.904156,5.43,0,0&a=0&as=1&b=1&bo=75&c=0&ca=1&d=0&fe=1&lt=1&lfm=ALL&col=Blues&f=50" target="_blank">Schermo intero</a>
+<a href="https://flowmap.blue/1RmMNWkNdNC4M3erXHU36x0c97Avlb849kbzEVIfZCdo/embed" target="_blank">Schermo intero</a>
 
 <div class="container-iframe">
-  <iframe class="responsive-iframe" src="https://flowmap.blue/1RmMNWkNdNC4M3erXHU36x0c97Avlb849kbzEVIfZCdo/embed?v=42.203718,11.904156,5.43,0,0&a=0&as=1&b=1&bo=75&c=0&ca=1&d=0&fe=1&lt=1&lfm=ALL&col=Blues&f=50"></iframe>
+  <iframe class="responsive-iframe" src="https://flowmap.blue/1RmMNWkNdNC4M3erXHU36x0c97Avlb849kbzEVIfZCdo/embed"></iframe>
 </div>
