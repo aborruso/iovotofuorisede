@@ -23,8 +23,7 @@ mlr <"$folder"/../dati/rawdata/iovotofuorisede_wide.csv --csv reshape -r "^[^Reg
 
 # normalizza nomi regione
 mlr -I --csv put -S '$origine=sub($origine,"Trentino A.A.","Trentino-Alto Adige");$origine=sub($origine,"Fiuli V.G.","Friuli Venezia Giulia");$origine=sub($origine,"Emilia Romagna","Emilia-Romagna")' then \
-put -S '$destinazione=sub($destinazione,"Trentino A.A.","Trentino-Alto Adige");$destinazione=sub($destinazione,"Fiuli V.G.","Friuli Venezia Giulia");$destinazione=sub($destinazione,"Emilia Romagna","Emilia-Romagna")' "$folder"/../dati/rawdata/iovotofuorisede_long.csv
-
+  put -S '$destinazione=sub($destinazione,"Trentino A.A.","Trentino-Alto Adige");$destinazione=sub($destinazione,"Fiuli V.G.","Friuli Venezia Giulia");$destinazione=sub($destinazione,"Emilia Romagna","Emilia-Romagna")' "$folder"/../dati/rawdata/iovotofuorisede_long.csv
 
 # genera file CSV con centroidi in coordinate geografiche delle regioni italiane
 if [ ! -f "$folder"/../dati/risorse/Reg01012021_g_WGS84.csv ]; then
@@ -34,7 +33,7 @@ if [ ! -f "$folder"/../dati/risorse/Reg01012021_g_WGS84.csv ]; then
 fi
 
 # aggiungi codice regione origine
-mlr --csv join --ul -j "origine" -l "origine" -r "DEN_REG" -f "$folder"/../dati/rawdata/iovotofuorisede_long.csv then unsparsify then cut -x -f cx,cy then rename COD_REG,COD_REG_o "$folder"/../dati/risorse/Reg01012021_g_WGS84.csv > "$folder"/../dati/processing/iovotofuorisede.csv
+mlr --csv join --ul -j "origine" -l "origine" -r "DEN_REG" -f "$folder"/../dati/rawdata/iovotofuorisede_long.csv then unsparsify then cut -x -f cx,cy then rename COD_REG,COD_REG_o "$folder"/../dati/risorse/Reg01012021_g_WGS84.csv >"$folder"/../dati/processing/iovotofuorisede.csv
 
 # aggiungi codice regione destinazione
 mlr --csv join --ul -j "destinazione" -l "destinazione" -r "DEN_REG" -f "$folder"/../dati/processing/iovotofuorisede.csv then unsparsify then cut -x -f cx,cy then rename COD_REG,COD_REG_d then reorder -f origine then sort -n COD_REG_o,COD_REG_d "$folder"/../dati/risorse/Reg01012021_g_WGS84.csv | sponge "$folder"/../dati/processing/iovotofuorisede.csv
@@ -53,7 +52,6 @@ mlr --csv join --ul -j "COD_REG_o" -l "COD_REG_o" -r "COD_REG" -f "$folder"/../d
 
 # aggiungi calcolo per ogni 100.000 abitanti
 mlr -I --csv put '$ogniCentomila=$valore/$Popolazione*100000' "$folder"/../dati/processing/iovotofuorisede.csv
-
 
 ### flowmap ###
 
@@ -80,5 +78,9 @@ mlr --csv join --ul -j "COD_REG_d" -l "COD_REG_d" -r "COD_REG" -f "$folder"/../d
 # aggiungi calcolo individui in entrata ogni 100 residenti
 mlr -I --csv put '$ogniCento=int($valore_sum/$Popolazione*100)' then reorder -f COD_REG_d,destinazione,Popolazione,valore_sum,ogniCento then label COD_REG,regione,popolazione,individiduiDinamiciEntrata,individiduiDinamiciEntrataOgniCento "$folder"/../dati/processing/inEntrataOgniCento.csv
 
+# estai dati di insieme entrate e uscite per calcolare il rapporto
+mlr --csv filter '$check==0' then stats1 -a sum -f valore -g COD_REG_o,origine then label COD_REG,regione,uscita "$folder"/../dati/processing/iovotofuorisede.csv >"$folder"/../dati/processing/tmp_u.csv
 
+mlr --csv filter '$check==0' then stats1 -a sum -f valore -g COD_REG_d,destinazione then label COD_REG,regione,entrata "$folder"/../dati/processing/iovotofuorisede.csv >"$folder"/../dati/processing/tmp_e.csv
 
+mlr --csv join --ul -j "COD_REG" -f "$folder"/../dati/processing/tmp_e.csv then unsparsify then put '$rapporto=$entrata/$uscita' "$folder"/../dati/processing/tmp_u.csv >"$folder"/../dati/processing/conteggi.csv
